@@ -5,7 +5,6 @@ namespace RomanNumeralConverter
 {
     class Program
     {
-
         static void Main(string[] args)
         {
             string[] symbols = { "I", "V", "X", "L", "C", "D", "M"};
@@ -57,11 +56,6 @@ namespace RomanNumeralConverter
                 Console.WriteLine("Make sure the numerials you enetered for all letters!");
                 Console.WriteLine("Error" + e);
             }
-
-
-
-
-
         }
     }
 }
